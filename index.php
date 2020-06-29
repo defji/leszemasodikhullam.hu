@@ -1,5 +1,5 @@
 <?php
- $arr = ['Még nem tudni.','Sajnos van rá esély'];
+ $arr = ['Még nem tudni.','Sajnos van rá esély!'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,8 +28,8 @@
 <body>
 
 <h1>
-<?php 
-print $arr[rand(0,sizeof($arr)-1];
+<?php
+print $arr[rand(0,sizeof($arr)-1)];
 
 ?></h1>
 
