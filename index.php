@@ -1,4 +1,6 @@
-
+<?php
+ $arr = ['Még nem tudni.','Sajnos van rá esély'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +27,11 @@
 </head>
 <body>
 
-<h1>Még nem tudni.</h1>
+<h1>
+<?php 
+print $arr[rand(0,sizeof($arr)-1];
+
+?></h1>
 
 </body>
 <!-- Global site tag (gtag.js) - Google Analytics -->
