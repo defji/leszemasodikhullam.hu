@@ -7,7 +7,7 @@ $arr = [
 //    ],
     [
         "color" => "",
-        "text"  => "Dr. Merkely Béla szerint a küszöbén vagyunk!"
+        "text"  => "😷😷 Dr. Merkely Béla szerint a küszöbén vagyunk! 😷😷"
     ],
 ];
 
@@ -49,14 +49,10 @@ $arr = [
 </head>
 <body>
 
-<
-<h1>
-    <a target="_blank"
-       href="https://www.facebook.com/drmerkelybela/photos/a.115027230230106/150438533355642/?type=3&theater">
-        <?php
-        print $arr[rand(0, sizeof($arr) - 1)]['text'];
 
-        ?></a></h1>
+<h1><a target="_blank"
+       href="https://www.facebook.com/drmerkelybela/photos/a.115027230230106/150438533355642/?type=3&theater">Dr.
+        Merkely Béla szerint a küszöbén vagyunk!</a></h1>
 
 
 </body>
