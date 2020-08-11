@@ -1,4 +1,5 @@
 <?php
+
 $arr = [
 //    [
 //        "color" => "",
@@ -6,7 +7,7 @@ $arr = [
 //    ],
     [
         "color" => "",
-        "text"  => "Sajnos jó esély van rá!"
+        "text"  => "Dr. Merkely Béla szerint a küszöbén vagyunk!"
     ],
 ];
 
@@ -23,26 +24,40 @@ $arr = [
         }
 
         body {
-            background: #d7ca81;
+            background: #ec7f7f;
             font-family: sans-serif;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
+
         h1 {
             font-size: 4em;
             color: aliceblue;
+        }
+
+        a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
+<
 <h1>
-    <?php
-    print $arr[rand(0, sizeof($arr) - 1)]['text'];
+    <a target="_blank"
+       href="https://www.facebook.com/drmerkelybela/photos/a.115027230230106/150438533355642/?type=3&theater">
+        <?php
+        print $arr[rand(0, sizeof($arr) - 1)]['text'];
 
-    ?></h1>
+        ?></a></h1>
+
 
 </body>
 <!-- Global site tag (gtag.js) - Google Analytics -->
