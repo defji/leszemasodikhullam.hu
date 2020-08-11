@@ -16,7 +16,7 @@ $arr = [
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lesz-e vajon a koronavírusnak második hulláma?</title>
+    <title>Vajon lesz második hulláma a koronavírus járványnak?</title>
     <link rel="stylesheet" href="style.css">
     <style type="text/css">
         html, body {
